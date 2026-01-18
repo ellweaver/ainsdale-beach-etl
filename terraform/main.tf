@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket       = "ainsdale-beach-tf-state"
-    key          = "terraform/state"
+    key          = "terraform.tfstate"
     use_lockfile = true
     region       = "eu-west-2"
   }
